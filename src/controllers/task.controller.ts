@@ -5,7 +5,7 @@ import { TaskStatus, Priority } from "@prisma/client"
 
 export async function getTasks(req: AuthRequest, res: Response, next: NextFunction): Promise<void> {
   try {
-    const { status, priority, page, limit } = req.query as {
+    const { status, priority, page, limit } = req.query as unknown as {
       status?: TaskStatus
       priority?: Priority
       page: number
