@@ -6,9 +6,10 @@
     "dev": "nodemon --watch src --ext ts --exec ts-node src/app.ts",
     "build": "prisma generate && tsc",
     "start": "node dist/app.js",
-    "db:migrate": "prisma migrate deploy",
-    "db:seed": "ts-node prisma/seed.ts",
-    "db:studio": "prisma studio"
+    "db:migrate": "./node_modules/.bin/prisma migrate deploy",
+    "db:migrate:dev": "./node_modules/.bin/prisma migrate dev",
+    "db:seed": "./node_modules/.bin/ts-node prisma/seed.ts",
+    "db:studio": "./node_modules/.bin/prisma studio"
   },
   "dependencies": {
     "@prisma/client": "^6.8.2",
