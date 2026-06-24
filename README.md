@@ -2,8 +2,8 @@
 
 Production-ready REST API built with Node.js, Express and TypeScript. JWT auth, full CRUD for tasks with filtering and pagination, Zod validation, and interactive Swagger UI docs.
 
-**Live API → [your-app.up.railway.app](https://your-app.up.railway.app)**  
-**Swagger UI → [your-app.up.railway.app/api/docs](https://your-app.up.railway.app/api/docs)**
+**Live API → [api-manage-07-production.up.railway.app](https://api-manage-07-production.up.railway.app)**  
+**Swagger UI → [api-manage-07-production.up.railway.app/api/docs](https://api-manage-07-production.up.railway.app/api/docs)**
 
 ![Swagger UI](screenshots/swagger.png)
 
@@ -51,7 +51,7 @@ Production-ready REST API built with Node.js, Express and TypeScript. JWT auth, 
 ## Run locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/task-manager-api
+git clone https://github.com/g1pz/task-manager-api
 cd task-manager-api
 npm install
 ```
